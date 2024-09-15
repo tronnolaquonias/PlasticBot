@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>PlasticBot</title>
+        
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+       
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">VTHacks 2024 - PlasticBot</a>
+            </div>
+        </nav>
+        
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                
+                <img class="sunset" src="/assets/img/portfolio/sunset.webp"/>
+
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">PlasticBot</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">How It Works</h2>
+                <div class = "box-row">
+                    <div class = "box-container">
+                    <h3 class = "box-header"> Step 1 </h3>
+                        <p class = "box-body left-box">The AI/ML model takes an input picture and identifies the pieces of plastic in the picture. For example
+                            in this picture there is a turtle swimming right next to a plastic bag. </p>
+                        <img class = "box-image left-box" src = "assets/img/portfolio/Turtle.png"/> 
+                    </div>
+
+                    <div class = "box-container">
+                        <h3 class = "box-header"> Step 2 </h3>
+                            <p class = "box-body"> The image is processed through AI to identify the pieces of plastic underwater. The AI model had been trained with thousands of pictures of underwater plastic beforehand.</p>
+                            <img class = "box-image" src = "assets/img/portfolio/Training.png"/>
+                    </div>
+
+                    <div class = "box-container">
+                        <h3 class = "box-header"> Step 3 </h3>
+                            <p class = "box-body"> The picture is returned with bounding boxes around the identified pieces of plastic with a confidence interval between 0 - 1, which shows the AI's level of confidence.</p>
+                            <img class = "box-image" src = "assets/img/portfolio/Turtle2.png"/>
+                    </div>
+
+                    <div class = "box-container">
+                        <h3 class = "box-header"> Potential Usage </h3>
+                            <p class = "box-body"> This machine learning model could be used with autonomous underwater vehicles in order to automatically detect trash and collect it. This would help clean up the pollution in the ocean.</p>
+                            <video class="box-image" controls>
+                                <source src="assets/img/portfolio/video.mp4" type="video/mp4">
+                            </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
